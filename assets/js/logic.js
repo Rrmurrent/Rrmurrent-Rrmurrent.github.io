@@ -14,4 +14,15 @@ viewProjects();
 // $('.btn aqua-gradient').addClass('animated zoomOutRight');
 
 });
- 
+
+
+
+
+
+
+// Bonus
+// pull in data using node.
+
+// Link that data to the appropriate buttons
+
+// 
