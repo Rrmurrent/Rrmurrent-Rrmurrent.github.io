@@ -480,7 +480,8 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  color:black;
+  font-weight: bolder;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
@@ -686,7 +687,7 @@ a:hover {
 .aboutInfoBox{
   border: double 5px blue;
   align-items: center;
-  color: blue;
+  color: lightseagreen;
 
 }
 
