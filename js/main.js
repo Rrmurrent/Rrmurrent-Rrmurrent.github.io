@@ -1,3 +1,6 @@
+var mainDiv = $('#mainDiv');
+
+
 (function ($) {
 	"use strict";
 	var nav = $('nav');
@@ -89,29 +92,34 @@
 		}
 	});
 
-	/*--/ Star Typed /--*/
-	if ($('.text-slider').length == 1) {
-    var typed_strings = $('.text-slider-items').text();
-		var typed = new Typed('.text-slider', {
-			strings: typed_strings.split(','),
-			typeSpeed: 80,
-			loop: true,
-			backDelay: 1100,
-			backSpeed: 30
-		});
-	}
 
-	/*--/ Testimonials owl /--*/
-	// $('#testimonial-mf').owlCarousel({
-	// 	margin: 20,
-	// 	autoplay: true,
-	// 	autoplayTimeout: 4000,
-	// 	autoplayHoverPause: true,
-	// 	responsive: {
-	// 		0: {
-	// 			items: 1,
-	// 		}
-	// 	}
-	// });
+var image = document.createElement("IMG");
+image.alt = "profile pic";
+image.setAttribute('id', 'about-image');
+image.src="img/testimonial-2.jpg";
+//$("IMG").css({"height":"25px","width":"25px"});
+$('.mainDiv').html(image);
+	
+
+	/*--/ Star Typed /--*/
+	// if ($('.text-slider').length == 1) {
+    // var typed_strings = $('.text-slider-items').text();
+	// 	var typed = new Typed('.text-slider', {
+	// 		strings: typed_strings.split(','),
+	// 		typeSpeed: 80,
+	// 		loop: true,
+	// 		backDelay: 1100,
+	// 		backSpeed: 30
+	// 	});
+	// }
+
+
+// $(".projects".click(function(){
+//     $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
+//     return false;
+//   }));
 
 })(jQuery);
+
+
+// <button onclick="myFunction()">Click me</button>
