@@ -1,4 +1,3 @@
-var mainDiv = $('#mainDiv');
 
 
 (function ($) {
@@ -91,15 +90,41 @@ var mainDiv = $('#mainDiv');
 			$('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
 		}
 	});
-
-
+// ----------------Why didn't this work..look at again once everything is done--------------
+// 	var mainDiv = $('.mainDiv');
+// 	var textDiv = document.createElement('div');
+// 	$(textDiv).attr('class','textDiv');
+// 	$(textDiv).html('<h3>This is where all of the text is going to go.</h3>');
+	
 var image = document.createElement("IMG");
 image.alt = "profile pic";
-image.setAttribute('id', 'about-image');
+// image.setAttribute('class','container-fluid');
+image.setAttribute('class', 'image');
 image.src="img/testimonial-2.jpg";
+
+// var textDiv = document.createElement('div');
+// $(textDiv).attr('class','textDiv');
+// $(textDiv).html('<h3>This is where all of the text is going to go.</h3>');
+
+// $(textDiv).appendTo(mainDiv);
+// console.log('this is wehre the text info will go');
+
+// $(mainDiv).html(textDiv);
+
+
 //$("IMG").css({"height":"25px","width":"25px"});
-$('.mainDiv').html(image);
-	
+$('.imageDiv').html(image);
+
+
+// $('.mainDiv').html(textDiv);
+
+
+// var textDiv = $('<div></div>');
+// jQuery('<div/>', {
+//     id: 'textDiv',
+//     "class": 'text',
+//     title: 'This is where the text will go'
+// }).appendTo('.mainDiv');
 
 	/*--/ Star Typed /--*/
 	// if ($('.text-slider').length == 1) {

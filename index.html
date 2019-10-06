@@ -26,7 +26,6 @@
 
  
 </head>
-
 <body id="page-top">
 
   <!--/ Nav Star /-->
@@ -80,38 +79,69 @@
     </div>
   </div>
   <!--/ Intro Skew End /-->
+<div class="mainDiv  parent"> 
+  <div class="row ">
+    <div class="col child-left imageDiv ">
+      <!-- 1 of 2 -->
+    </div>
+
+
+    <div class="col child-right textDiv">
+      <div class="title-box-2">
+        <h5 class="title-left">
+          About me
+        </h5>
+      </div>
+     
+      <p class="lead"  style="color:black; font-weight: bolder; font-size:1.5rem;">
+        Fullstack web developer certified by the University of Minnesota  with a masters degree in Acupuncture and Chinese Medicine and over ten years of work experience.
+        Creative and confident problem solver and abstract thinker who excels at multitasking, with eagerness to learn from those that are willing to guide and mentor. 
+      </p>
+      <br>
+      <br>
+      <br>
+      <p class="lead"  style="color:black; font-weight: bolder; font-size:1.5rem;">
+         Languages: JavaScript, HTML5, CSS3, Node.js, jQuery, MySQL, MongoDB, Github, Bootstrap, SASS, AJAX, JSON, REST, 
+         React.js, APIs, Heroku, Firebase, Media Query and ReactJS., Microsoft Suite, Git.
+      </p>
+      <br>
+      <br>
+      <div class="col-md-12">
+          <input type="submit" class="button button-a button-big button-rouded btn-block" onclick="location.href='https://docs.google.com/document/d/1yc5H8H88mwX44AOA4e8gD7lfqjaHN61opzEpl6sQrXA/edit?usp=sharing';" value="Resume" />
+        </div>
 <br>
-<div class="mainDiv container-fluid" style= "background-image: url(img/intro-bg.jpg)"> 
-  <!-- <script> -->
+<br>
+
+
+        <div class="col-md-12 projects">
+            <button onclick="seeProjects()" class="button button-a button-big button-rouded btn-block" > Projects </button>
+              <script> 
+                  function seeProjects() {
+                  $('.mainDiv').empty(); 
+                   // var projects = $('<div></div>');
+                    // $(projectsDiv).attr('id', 'projects mx-lg-auto mx-md-auto mx-sm-0 mx-xs-0 col-lg-10 col-md-10 col-sm-12 col-xs-12');
+                    // $(projectsDiv).append('testing Testing');
+                    
+                    $(projectsDiv).appendTo('.mainDiv');
+                   
+                  }; 
+               </script> 
+           </div>
+
+
+    </div>
+    <br>
+    <br>
+    <br>
     
-    <!-- // function info() {
-    //   $('.mainDiv').empty();
-      // var mainDiv=$('.mainDiv');
-        // var imageDiv=$('<div></div>');
-        // $(imageDiv).attr('class','about-img');
-        // $(imageDiv).src="img/testimonial-2.jpg";
-        // $(imageDiv).appendTo('.mainDiv');
-    // }
-    // info();
-  // </script> -->
-  <!-- <section id="about" class="about-mf sect-pt4 route"> -->
-    <!-- Begin container that holds pic, button, summary, and contact info.  -->
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="row"> -->
-                <!--Profile Picture and Resume Button -->
-                  <!-- <div class="col-md-12 image">
-                    <div class="about-img">
-                      <img src="img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                    </div>
+     
+    </div>
+  
+</div>
 
 
 
-                  <!-- Resume button -->
+                 
                     <!-- <div class="col-md-12">
                       <input type="submit" class="button button-a button-big button-rouded btn-block" onclick="location.href='https://docs.google.com/document/d/1yc5H8H88mwX44AOA4e8gD7lfqjaHN61opzEpl6sQrXA/edit?usp=sharing';" value="Resume" />
                     </div> -->
@@ -177,7 +207,10 @@
     </div> -->
     <!-- End main container -->
   <!-- </section> -->
-</div>
+
+<!-- </div> -->
+  
+
 
  
   <!--/ Section Portfolio Star /-->
@@ -348,96 +381,17 @@
 
 
   <!--/ Section Contact-Footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/intro-bg.jpg)">
-    <!-- <div class="overlay-mf"></div> -->
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="contact-mf">
-            <div id="contact" class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Contact Me
-                    </h5>
-                  </div>
-                  <div>
-                      <form action="" method="post" role="form" class="contactForm"> -->
-                      <!-- <div id="sendmessage">Your message has been sent. Thank you!</div> -->
-                      <!-- <div id="errormessage"></div> -->
-                      <!-- <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div> -->
-                          <!-- </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                              <div class="validation"></div> -->
-                            <!-- </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div> -->
-                          <!-- </div>
-                        </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left">
-                      Get in Touch
-                    </h5>
-                  </div>
-                  <div class="more-info">
-                    <p class="lead" style='color:#fff'> -->
-                      <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                      expedita aperiam aliquid at.
-                      Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                      mollitia inventore? -->
-                    <!-- </p>
-                    <ul class="list-ico"> -->
-                      <!-- <li><span class="ion-ios-location"></span> 555 Winchester Rd</li> -->
-                      <!-- <li><span class="ion-ios-telephone"></span> (617) 728-2989</li> -->
-                      <!-- <li><span class="ion-email"></span> amcurrent@hotmail.com</li>
-                    </ul>
-                  </div>
-                  <div class="socials">
-                    <ul>
-                      <li><a href="https://github.com/Rrmurrent"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li> -->
-                      <!-- <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li> -->
-                      <!-- <li><a href="https://www.linkedin.com/in/angela-current-a993aa18a/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li> -->
-                      <!-- <li><a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a></li> -->
-                    <!-- </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <footer class="footer child" >
+      <div class="col-md-12">
+          <div class="about-info aboutInfoBox">
+              <p><span class="title-s">Name: </span> <span>Angela Current</span></p>
+              <!-- <p><span class="title-s">Profile: </span> <span>Full Stack Certified Web Developer</span></p> -->
+              <p><span class="title-s">Email: </span> <span>rrmurrent@gmail.com</span></p>
+              <p><span class="title-s">Phone: </span> <span>(651) 728-2989</span></p>
           </div>
-        </div>
       </div>
-    </div> -->
-    <footer> </footer>
-  </section>
+  </footer>
   <!--/ Section Contact-footer End /-->
-
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
