@@ -95,13 +95,17 @@
 // 	var textDiv = document.createElement('div');
 // 	$(textDiv).attr('class','textDiv');
 // 	$(textDiv).html('<h3>This is where all of the text is going to go.</h3>');
-	
+	//------------------THIS CODE WORKS!-------------------- 
 var image = document.createElement("IMG");
 image.alt = "profile pic";
-// image.setAttribute('class','container-fluid');
+image.setAttribute('class','container-fluid');
 image.setAttribute('class', 'image');
 image.src="img/testimonial-2.jpg";
+$('.imageDiv').append(image);
 
+
+
+// -------------------------------------------------------------
 // var textDiv = document.createElement('div');
 // $(textDiv).attr('class','textDiv');
 // $(textDiv).html('<h3>This is where all of the text is going to go.</h3>');
@@ -113,7 +117,7 @@ image.src="img/testimonial-2.jpg";
 
 
 //$("IMG").css({"height":"25px","width":"25px"});
-$('.imageDiv').html(image);
+
 
 
 // $('.mainDiv').html(textDiv);

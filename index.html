@@ -20,6 +20,8 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
 
 
 
@@ -78,63 +80,48 @@
     </div>
   </div>
   <!--/ Intro Skew End /-->
-<div class="mainDiv  parent"> 
+
+    <!-- <div class="row "> -->
+<div class="mainDiv container-fluid parent"> 
   <div class="row ">
     <div class="col child-left imageDiv ">
       <!-- 1 of 2 -->
+
     </div>
 
-
-    <div class="col child-right textDiv">
-      <div class="title-box-2">
-        <h5 class="title-left">
-          About me
-        </h5>
-      </div>
-     
-      <p class="lead"  style="color:black; font-weight: bolder; font-size:1.5rem;">
-        Fullstack web developer certified by the University of Minnesota  with a masters degree in Acupuncture and Chinese Medicine and over ten years of work experience.
-        Creative and confident problem solver and abstract thinker who excels at multitasking, with eagerness to learn from those that are willing to guide and mentor. 
-      </p>
-      <br>
-      <br>
-      <br>
-      <p class="lead"  style="color:black; font-weight: bolder; font-size:1.5rem;">
-         Languages: JavaScript, HTML5, CSS3, Node.js, jQuery, MySQL, MongoDB, Github, Bootstrap, SASS, AJAX, JSON, REST, 
-         React.js, APIs, Heroku, Firebase, Media Query and ReactJS., Microsoft Suite, Git.
-      </p>
-      <br>
-      <br>
-      <div class="col-md-12">
-          <input type="submit" class="button button-a button-big button-rouded btn-block" onclick="location.href='https://docs.google.com/document/d/1yc5H8H88mwX44AOA4e8gD7lfqjaHN61opzEpl6sQrXA/edit?usp=sharing';" value="Resume" />
-        </div>
+      <div class="col child-right textDiv">
+          <div class="title-box-2">
+            <h5 class="title-left">
+              About me
+            </h5>
 <br>
-<br>
-
-
-        <div class="col-md-12 projects">
-            <button onclick="seeProjects()" class="button button-a button-big button-rouded btn-block" > Projects </button>
-              <script> 
-                  function seeProjects() {
-                  $('.mainDiv').empty(); 
-                   // var projects = $('<div></div>');
-                    // $(projectsDiv).attr('id', 'projects mx-lg-auto mx-md-auto mx-sm-0 mx-xs-0 col-lg-10 col-md-10 col-sm-12 col-xs-12');
-                    // $(projectsDiv).append('testing Testing');
-                    
-                    $(projectsDiv).appendTo('.mainDiv');
-                   
-                  }; 
-               </script> 
-           </div>
-
-
+            <p class="lead"  style="color:black; font-weight: bolder; font-size:1.5rem;">
+                Fullstack web developer certified by the University of Minnesota  with a masters degree in Acupuncture and Chinese Medicine and over ten years of work experience.
+                Creative and confident problem solver and abstract thinker who excels at multitasking, with eagerness to learn from those that are willing to guide and mentor. 
+              </p>
+              <br>
+              <p class="lead"  style="color:black; font-weight: bolder; font-size:1.5rem;">
+                 Languages: JavaScript, HTML5, CSS3, Node.js, jQuery, MySQL, MongoDB, Github, Bootstrap, SASS, AJAX, JSON, REST, 
+                 React.js, APIs, Heroku, Firebase, Media Query and ReactJS., Microsoft Suite, Git.
+              </p>
+              <!-- <div class="col-md-6 projects"> -->
+                  <button onclick="seeProjects()" class="button button-a button-small button-rouded btn-block" > Projects </button>
+                  <script> 
+                      function seeProjects() {
+                      $('.mainDiv').empty(); 
+                       // var projects = $('<div></div>');
+                        // $(projectsDiv).attr('id', 'projects mx-lg-auto mx-md-auto mx-sm-0 mx-xs-0 col-lg-10 col-md-10 col-sm-12 col-xs-12');
+                        // $(projectsDiv).append('testing Testing');
+                        
+                        $(projectsDiv).appendTo('.mainDiv');
+                      }; 
+                   </script> 
+              <input type="submit" class="button button-a button-small button-rouded btn-block" onclick="location.href='https://docs.google.com/document/d/1yc5H8H88mwX44AOA4e8gD7lfqjaHN61opzEpl6sQrXA/edit?usp=sharing';" value="Resume" />
+          </div>
     </div>
-    <br>
-    <br>
-    <br>
-    
-     
     </div>
+
+   
   
 </div>
 
@@ -409,6 +396,5 @@
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
 </body>
 </html>

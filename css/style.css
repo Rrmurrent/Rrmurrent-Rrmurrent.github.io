@@ -601,12 +601,22 @@ a:hover {
     width: 50%;
 }
 
+/* .child-left{
+  position: absolute;
+} */
 
 /*======================================
 //--//-->   ABOUT
 ======================================*/
+
+
+
+
 .mainDiv{
   border: solid 25px black;
+  height:auto;
+  width:auto;
+
   
 }
 
@@ -621,17 +631,18 @@ a:hover {
 }
  .image{
   height: 10%;
-  width: 50%;
+  width: 60%;
   border: solid 10px orangered;
+  position: relative;
 }
 
 .textDiv{
-  height: 100%;
-  width: 50%;
+  height: auto;
+  width: auto;
   /* margin-bottom: 2rem;  */
   background-color:white;
-  /* position: left; */
-  /* margin-left: -2rem; */
+  position: relative;
+  margin-left: -22rem;
   border: solid 10px orangered;
   float:right;
  
@@ -650,7 +661,10 @@ a:hover {
   background:white;
 }
 
-
+/* .divWithText{
+  height:auto;
+  width:auto;
+} */
 /*======================================
 //--//-->   FOOTER
 ======================================*/
@@ -661,17 +675,18 @@ a:hover {
   /* padding-bottom: 2rem; */
   background-color: black;
   width:100%;
+  height: 100%;
 }
 
-.textDivTest{
+/* .textDivTest{
   background-color: green;
   height:100%;
-}
-
+} */
+/* 
 .buttonsDivText{
   background-color: rebeccapurple;
   height:50%;
-}
+} */
 /*======================================
 //--//-->   BUTTON
 ======================================*/
@@ -727,12 +742,33 @@ a:hover {
   border-radius: .3rem;
 }
 
-@media (min-width: 577px) {
-  .counter-box {
+
+
+/* .mainDiv {
+  width:10px;
+  min-width:100%;
+} */
+/* ------------------------------------testing-------------------- */
+/* On screens that are 992px wide or less, go from four columns to two columns */
+/* @media screen and (min-width: 577px) {
+  .imageDiv {
+    width: 50%;
+  }
+} */
+/* ------------------------------------------------------------------ */
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+} */
+/* ---------------------------------------------- */
+/* @media (min-width: 577px) {
+  .textDiv {
     margin-bottom: 1.8rem;
   }
-}
-
+} */
+/* -------------------------------------------------- */
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
     margin-top: 3rem;
