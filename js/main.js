@@ -103,6 +103,9 @@ image.setAttribute('class', 'image');
 image.src="img/testimonial-2.jpg";
 $('.imageDiv').append(image);
 
+// $(window).on('load', function () {
+// $( ".slideShow" ).hide();
+// }
 
 
 // -------------------------------------------------------------

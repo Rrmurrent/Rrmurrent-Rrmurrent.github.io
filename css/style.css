@@ -635,7 +635,10 @@ a:hover {
   border: solid 10px orangered;
   position: relative;
 }
-
+.hangmanBox{
+  height: 25%;
+  width: 25%;
+}
 .textDiv{
   height: auto;
   width: auto;
