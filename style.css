@@ -32,20 +32,18 @@ html {
   
   header {
     text-align: center;
-    height: 50vh;
+    height: 40vh;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blue;
-  }
-  
-  h1 {
+    background-color: black;
     color: white;
-    font-size: 7vw;
-    text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
+    font-size: 5vw;
+
   }
   
+
   nav {
     background: black;
     top: 0;

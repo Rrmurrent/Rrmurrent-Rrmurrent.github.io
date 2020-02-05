@@ -47,6 +47,8 @@ $(document).ready(() =>{
     $('.aboutDiv').hide();
     $('.contactDiv').hide();
     $('.resumeDiv').hide();
+
+    
     
    
     console.log('project nav works');
@@ -54,12 +56,14 @@ $(document).ready(() =>{
 
 $('.nav-item-contact').on("click", function(){
 
-  $('.contactDiv').show()
+  $('.contactDiv').show();
   $('.homeDiv').hide();
   $('.aboutDiv').hide();
   $('.resumeDiv').hide();
   $('.projectsDiv').hide();
-  ;
+
+  
+  
  
   console.log('contact nav works');
 });
@@ -71,6 +75,7 @@ $('.nav-item-resume').on("click", function(){
   $('.aboutDiv').hide();
   $('.projectsDiv').hide();
   $('.contactDiv').hide();
+
   
  
   console.log('resume nav works');
@@ -79,11 +84,13 @@ $('.nav-item-resume').on("click", function(){
 
 $('.logo').on("click", function(){
 
+  $('.header').show();
   $('.homeDiv').show();
   $('.aboutDiv').hide();
   $('.projectsDiv').hide();
   $('.contactDiv').hide();
   $('.resumeDiv').hide();
+
  
   console.log('logo home nav works');
 });
