@@ -48,7 +48,7 @@ html {
     color: transparent;
   }
 
-  
+
   nav {
     background: black;
     top: 0;
@@ -109,8 +109,7 @@ html {
       height: 50%;
       width: 50%;
       margin-left: 25%;
-      background-color: red;
-      border: solid 10px black;
+      background-color:white;
   }
 
   .row {
@@ -140,4 +139,24 @@ html {
   #monkeyImage{
     border: solid .5px black;
 
+  }
+
+
+  .icons{
+    margin-left: 25%;
+  }
+
+
+  .LinkedIn-Logo{
+    height: 64px;
+    width: 64px;
+  }
+
+  .emailText {
+    margin-left: 25%;
+    font-weight: bolder;
+    font-size: 25px;
+
+
+  
   }
