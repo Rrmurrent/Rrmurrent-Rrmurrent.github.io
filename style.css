@@ -43,7 +43,12 @@ html {
 
   }
   
+  .rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+  }
 
+  
   nav {
     background: black;
     top: 0;
@@ -122,4 +127,17 @@ html {
     display: flex;
     height: 100%;
     width: 100%;
+  }
+
+  .imageRow{
+    border: solid 10px black;
+  }
+
+  #mainImage{
+    border: solid .5px black;
+  }
+
+  #monkeyImage{
+    border: solid .5px black;
+
   }
