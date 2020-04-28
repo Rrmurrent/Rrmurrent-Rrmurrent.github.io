@@ -160,3 +160,11 @@ html {
 
   
   }
+
+  .minutesPic{
+    height: 50%;
+    width: 65%;
+    margin-left: 20%;
+    /* z-index: 20px; */
+    border: solid 3px black;
+  }
