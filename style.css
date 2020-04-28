@@ -162,9 +162,9 @@ html {
   }
 
   .minutesPic{
-    height: 50%;
-    width: 65%;
-    margin-left: 20%;
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
     /* z-index: 20px; */
     border: solid 3px black;
   }
