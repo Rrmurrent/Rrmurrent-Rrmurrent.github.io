@@ -2,7 +2,7 @@
 $(document).ready(() =>{
 
   $('.homeDiv').show();
-  $('.aboutDiv').hide();
+  $('.uxDiv').hide();
   $('.projectsDiv').hide();
   $('.contactDiv').hide();
   $('.resumeDiv').hide();
@@ -25,9 +25,28 @@ $(document).ready(() =>{
   
   // Navbar functionality
 
-  $('.nav-item-about').on("click", function(){
+  // $("p").css("background-color");
 
-      $('.aboutDiv').show();
+  $('.nav-item-title').on("click", function(){
+    
+    
+    $('.homeDiv').show();
+    $('.uxDiv').hide();
+    $('.projectsDiv').hide();
+    $('.contactDiv').hide();
+    $('.resumeDiv').hide();
+    
+    
+   
+    console.log('about nav works');
+});
+
+
+  
+
+  $('.nav-item-ux').on("click", function(){
+
+      $('.uxDiv').show();
       $('.homeDiv').hide();
       $('.projectsDiv').hide();
       $('.contactDiv').hide();
@@ -44,7 +63,7 @@ $(document).ready(() =>{
 
     $('.projectsDiv').show();
     $('.homeDiv').hide();
-    $('.aboutDiv').hide();
+    $('.uxDiv').hide();
     $('.contactDiv').hide();
     $('.resumeDiv').hide();
 
@@ -58,7 +77,7 @@ $('.nav-item-contact').on("click", function(){
 
   $('.contactDiv').show();
   $('.homeDiv').hide();
-  $('.aboutDiv').hide();
+  $('.uxDiv').hide();
   $('.resumeDiv').hide();
   $('.projectsDiv').hide();
 
@@ -72,7 +91,7 @@ $('.nav-item-resume').on("click", function(){
 
   $('.resumeDiv').show();
   $('.homeDiv').hide();
-  $('.aboutDiv').hide();
+  $('.uxDiv').hide();
   $('.projectsDiv').hide();
   $('.contactDiv').hide();
 
@@ -86,7 +105,7 @@ $('.logo').on("click", function(){
 
   $('.header').show();
   $('.homeDiv').show();
-  $('.aboutDiv').hide();
+  $('.uxDiv').hide();
   $('.projectsDiv').hide();
   $('.contactDiv').hide();
   $('.resumeDiv').hide();
